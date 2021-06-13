@@ -1,0 +1,64 @@
+06/10/2021 03:13:05 PM: INFO: ***************** Test_001_Login *****************
+06/10/2021 03:13:05 PM: INFO: ***************** Verifying Home Page Title *****************
+06/10/2021 03:13:13 PM: INFO: ***************** Home page title test is passed *****************
+06/10/2021 03:13:15 PM: INFO: ***************** Verifying Login test *****************
+06/10/2021 03:13:23 PM: INFO: ***************** Login test is passed *****************
+06/10/2021 03:43:30 PM: INFO: ************* Test_003_AddCustomer **********
+06/10/2021 03:43:39 PM: INFO: ************* Login succesful **********
+06/10/2021 03:43:39 PM: INFO: ******* Starting Add Customer Test **********
+06/10/2021 03:43:42 PM: INFO: ************* Providing customer info **********
+06/10/2021 03:43:44 PM: INFO: ***************** Verifying Login test *****************
+06/10/2021 03:43:51 PM: INFO: ***************** Login test is passed *****************
+06/10/2021 03:44:44 PM: INFO: ************* Test_003_AddCustomer **********
+06/10/2021 03:44:52 PM: INFO: ************* Login succesful **********
+06/10/2021 03:44:52 PM: INFO: ******* Starting Add Customer Test **********
+06/10/2021 03:44:54 PM: INFO: ************* Providing customer info **********
+06/10/2021 03:44:56 PM: INFO: ***************** Verifying Login test *****************
+06/10/2021 03:45:02 PM: INFO: ***************** Login test is passed *****************
+06/10/2021 03:46:56 PM: INFO: ************* Test_003_AddCustomer **********
+06/10/2021 03:47:04 PM: INFO: ************* Login succesful **********
+06/10/2021 03:47:04 PM: INFO: ******* Starting Add Customer Test **********
+06/10/2021 03:47:06 PM: INFO: ***************** Verifying Login test *****************
+06/10/2021 03:47:37 PM: INFO: ************* Test_003_AddCustomer **********
+06/10/2021 03:47:54 PM: INFO: ************* Login succesful **********
+06/10/2021 03:47:54 PM: INFO: ******* Starting Add Customer Test **********
+06/10/2021 03:47:55 PM: INFO: ***************** Verifying Login test *****************
+06/10/2021 03:48:03 PM: INFO: ***************** Login test is passed *****************
+06/10/2021 03:49:04 PM: INFO: ************* Test_003_AddCustomer **********
+06/10/2021 03:49:08 PM: INFO: ************* Login succesful **********
+06/10/2021 03:49:08 PM: INFO: ******* Starting Add Customer Test **********
+06/10/2021 03:49:11 PM: INFO: ************* Providing customer info **********
+06/10/2021 03:49:23 PM: INFO: ************* Saving customer info **********
+06/10/2021 03:49:23 PM: INFO: ********* Add customer validation started *****************
+06/10/2021 03:49:23 PM: INFO: ********* Add customer Test Passed *********
+06/10/2021 03:49:23 PM: INFO: ******* Ending Add customer test **********
+06/10/2021 03:49:24 PM: INFO: ***************** Verifying Login test *****************
+06/10/2021 03:49:32 PM: INFO: ***************** Login test is passed *****************
+06/10/2021 03:52:08 PM: INFO: ************* Test_003_AddCustomer **********
+06/10/2021 03:52:16 PM: INFO: ************* Login succesful **********
+06/10/2021 03:52:16 PM: INFO: ******* Starting Add Customer Test **********
+06/10/2021 03:52:18 PM: INFO: ************* Providing customer info **********
+06/10/2021 03:52:20 PM: INFO: ***************** Test_001_Login *****************
+06/10/2021 03:52:20 PM: INFO: ***************** Verifying Home Page Title *****************
+06/10/2021 03:52:27 PM: INFO: ***************** Home page title test is passed *****************
+06/10/2021 03:52:28 PM: INFO: ***************** Verifying Login test *****************
+06/10/2021 03:52:36 PM: INFO: ***************** Login test is passed *****************
+06/10/2021 03:52:38 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/10/2021 03:52:38 PM: INFO: ******* Starting Login DDT Test **********
+06/10/2021 03:52:51 PM: INFO: **** passed ****
+06/10/2021 03:52:59 PM: INFO: **** passed ****
+06/10/2021 03:53:05 PM: INFO: **** passed ****
+06/10/2021 03:53:11 PM: INFO: **** passed ****
+06/10/2021 03:53:11 PM: INFO: ******* DDT Login test passed **********
+06/10/2021 03:53:11 PM: INFO: ******* End of Login DDT Test **********
+06/10/2021 03:53:11 PM: INFO: **************** Completed  TC_LoginDDT_002 ************* 
+06/10/2021 03:53:12 PM: INFO: ************* SearchCustomerByEmail_004 **********
+06/10/2021 03:53:18 PM: INFO: ************* Login succesful **********
+06/10/2021 03:53:18 PM: INFO: ******* Starting Search Customer By Email **********
+06/10/2021 03:53:20 PM: INFO: ************* searching customer by emailID **********
+06/10/2021 03:53:25 PM: INFO: ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+06/10/2021 03:53:27 PM: INFO: ************* SearchCustomerByName_005 **********
+06/10/2021 03:53:34 PM: INFO: ************* Login succesful **********
+06/10/2021 03:53:34 PM: INFO: ******* Starting Search Customer By Name **********
+06/10/2021 03:53:38 PM: INFO: ************* searching customer by Name **********
+06/10/2021 03:53:43 PM: INFO: ***************  TC_SearchCustomerByName_005 Finished  *********** 

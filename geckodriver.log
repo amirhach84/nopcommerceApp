@@ -1,0 +1,20 @@
+1623049674748	geckodriver	INFO	Listening on 127.0.0.1:56388
+1623049677823	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AMIRHA~1\\AppData\\Local\\Temp\\rust_mozprofileqoKGqI"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623049681765	Marionette	INFO	Listening on port 62634
+1623049682087	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623049685145	Marionette	INFO	Stopped listening on port 62634
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623049686885	geckodriver	INFO	Listening on 127.0.0.1:56575
+1623049689948	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AMIRHA~1\\AppData\\Local\\Temp\\rust_mozprofileofwWvB"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623049692867	Marionette	INFO	Listening on port 63311
+1623049693187	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623049706523	Marionette	INFO	Stopped listening on port 63311
+JavaScript error: https://admin-demo.nopcommerce.com/lib_npm/jquery/jquery.min.js, line 2: NS_ERROR_NOT_INITIALIZED: 
