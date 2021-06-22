@@ -48,7 +48,7 @@ class AddCustomer:
         if role == 'Registered':
             self.listitem = self.driver.find_element_by_xpath(self.lstitemRegistered_xpath)
         elif role == 'Administrators':
-            self.listitem=self.driver.find_element_by_xpath(self.lstitemAdministrators_xpath)
+            self.listitem = self.driver.find_element_by_xpath(self.lstitemAdministrators_xpath)
         elif role == 'Guests':
             # Here user can be Registered( or) Guest, only one
             time.sleep(3)
@@ -65,7 +65,7 @@ class AddCustomer:
         self.driver.execute_script("arguments[0].click();", self.listitem)
 
     def setManagerOfVendor(self,value):
-        drp=Select(self.driver.find_element_by_xpath(self.drpmgrOfVendor_xpath))
+        drp = Select(self.driver.find_element_by_xpath(self.drpmgrOfVendor_xpath))
         drp.select_by_visible_text(value)
 
     def setGender(self,gender):

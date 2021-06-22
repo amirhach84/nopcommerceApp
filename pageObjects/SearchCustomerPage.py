@@ -1,5 +1,5 @@
 class SearchCustomer():
-    # Add customer Page
+    # Search customer Page
     txtEmail_id = "SearchEmail"
     txtFirstName_id = "SearchFirstName"
     txtLastName_id = "SearchLastName"
