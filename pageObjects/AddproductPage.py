@@ -1,7 +1,3 @@
-import time
-from selenium.webdriver.support.ui import Select
-from pageObjects.AddcustomerPage import AddCustomer
-
 class AddProduct:
     # Add product Page
     lnkCatalog_menu_xpath = "//a[@href='#']//p[contains(text(),'Catalog')]"
@@ -10,7 +6,6 @@ class AddProduct:
     txtShortDescription_xpath = "//textarea[@id='ShortDescription']"
     btnDeleteSelected_xpath = "//button[@id='delete-selected']"
     btnDeleteConfirmation_xpath = "//button[@id='delete-selected-action-confirmation-submit-button']"
-
 
     def __init__(self, driver):
         self.driver = driver
@@ -24,6 +19,9 @@ class AddProduct:
     def setProductName(self,pname):
         self.driver.find_element_by_xpath(self.txtProductName_xpath).send_keys(pname)
 
+    def clearProductName(self):
+        self.driver.find_element_by_xpath(self.txtProductName_xpath).clear()
+
     def setShortDescription(self,shortDesc):
         self.driver.find_element_by_xpath(self.txtShortDescription_xpath).send_keys(shortDesc)
 
@@ -32,3 +30,6 @@ class AddProduct:
 
     def clickOnDeleteConfirmation(self):
         self.driver.find_element_by_xpath(self.btnDeleteConfirmation_xpath).click()
+
+       # WebDriverWait(self.driver, 10).until(
+       #     EC.presence_of_element_located(self.btnDeleteConfirmation_xpath)).click()

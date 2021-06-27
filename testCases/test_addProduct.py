@@ -5,7 +5,8 @@ from pageObjects.AddproductPage import AddProduct
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 
-class Test_004_AddProduct:
+
+class Test_006_AddProduct:
     baseURL = ReadConfig.getApplicationURL()
     username = ReadConfig.getUseremail()
     password = ReadConfig.getPassword()
@@ -13,7 +14,7 @@ class Test_004_AddProduct:
 
     @pytest.mark.sanity
     def test_addProduct(self, setup):
-        self.logger.info("************* Test_004_Addproduct **********")
+        self.logger.info("************* Test_006_Addproduct **********")
         self.driver = setup
         self.driver.get(self.baseURL)
         self.driver.maximize_window()
@@ -51,6 +52,7 @@ class Test_004_AddProduct:
             assert False
 
         self.addprod.clickOnDeleteSelected()
+        self.driver.implicitly_wait(5)
         self.addprod.clickOnDeleteConfirmation()
 
         self.driver.close()
